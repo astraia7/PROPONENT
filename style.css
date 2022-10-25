@@ -210,66 +210,7 @@ form .btn input[type="submit"]{
     transform: rotateX (0deg)
   }
 }
-.button{
-  background:#46c9ea;
-  color:#fff;
-  border-radius: 10px;
-  
-  
-  font-size:20px;
-  padding:0 2em;
-  cursor:pointer;
-  transition:800ms ease all;
-  outline:none;
-  
-}
-.button:hover{
-  background:#fff;
-  color: #46c9ea;
-}
-.button:before,button:after{
-  content:'';
-  position:absolute;
-  top:0;
-  right:0;
-  height:2px;
-  width:0;
-  background: #46c9ea;
-  transition:400ms ease all;
-}
-.button:after{
-  right:inherit;
-  top:inherit;
-  left:0;
-  bottom:0;
-}
-.button:hover:before,button:hover:after{
-  width:100%;
-  transition:800ms ease all;
-}
-.button1{
 
- 
- 
-  
-  outline: 0;
-  cursor: pointer;
-  text-align: center;
-  border: 1px solid #babfc3;
-  padding: 7px 16px;
-  min-height: 36px;
-  min-width: 36px;
-  color: #202223;
-  background: #ffffff;
-  border-radius: 4px;
-  font-weight: 500;
-  font-size: 20ppx;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 0px 0px;
-}
-  .button1:hover {
-      background: #f6f6f7;
-      outline: 1px solid transparent;
-  }
 
   
   
@@ -304,4 +245,53 @@ a:active {
 p{
  text-align: center;
 
+}
+.button-div{
+    
+  width:350px;
+  height:60px;
+
+  
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border-radius:7px;
+  padding:7px;
+  align-items:center;
+}
+
+.signup-button{
+  width:100%;
+  height:45px;
+  margin-right:70px;
+  border:none;
+  border-radius:5px;
+  background-color:#ffffff;
+  font-size:17px;
+  font-weight:600;
+  cursor:pointer;
+}
+
+.login-button{
+  width:100%;
+  height:45px;
+  border:none;
+  margin-right: 80px;
+  border-radius:5px;
+  font-size:17px;
+  font-weight:600;
+  color:#fff;
+  background-color:#46c9ea;
+  cursor:pointer;
+}
+
+
+.login-button:hover{
+  
+  background: color #115f72;
+
+}
+.signup-button:hover{
+  
+  background-color:#e9ecf0d1;
 }
